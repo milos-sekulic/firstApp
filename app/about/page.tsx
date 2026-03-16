@@ -17,7 +17,11 @@ export default function About() {
                     </div>
                     <div>
                         <h2 className="text-2xl font-bold mb-2">Core Routers</h2>
-                        <p>Routers connect multiple networks together and route data packets between them. They are the "traffic cops" of the internet, ensuring data takes the most efficient path to its destination.</p>
+                        <p>Test2 da vidim da li se update radi uzivo nakon komandi:
+                            git add .
+                            git commit -m "novi tekst"
+                            git push
+                        </p>
                     </div>
                 </div>
             </div>
