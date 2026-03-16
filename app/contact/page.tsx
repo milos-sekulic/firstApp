@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <main className="min-h-screen bg-gray-800 text-white p-8">
       <Header pageName="Contact" />
-      
+
       <div className="max-w-4xl">
         <p className="mb-8 text-lg">
           Need to get in touch? While you're here, learn a little bit about network switches!
@@ -25,7 +25,7 @@ export default function Contact() {
         <div className="bg-gray-700 p-6 rounded-lg mt-10 border-t-4 border-blue-400">
           <h2 className="text-xl font-bold mb-4">Contact Us</h2>
           <p>Email: admin@antigravity-networks.com</p>
-          <p>Phone: 555-0198</p>
+          <p>test 3 </p>
         </div>
       </div>
     </main>
