@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div>
             <h2 className="text-2xl font-bold mb-2">LC Fiber Connector</h2>
-            <p>A miniaturized optical fiber connector used for high-speed data transmission over long distances. It uses a simple push-pull latching mechanism.</p>
+            <p>Testiranje nakon deploya </p>
           </div>
         </div>
       </div>
