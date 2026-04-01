@@ -26,6 +26,12 @@ export default function Header({ pageName }: { pageName: string }) {
                 >
                     Contact
                 </Link>
+                <Link
+                    href="/blog"
+                    className={pageName === 'Blog' ? 'underline font-bold text-blue-400' : 'hover:text-gray-300'}
+                >
+                    Blog
+                </Link>
             </nav>
         </header>
     );
