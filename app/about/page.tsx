@@ -38,6 +38,19 @@ export default function About() {
                     </div>
                 </div>
 
+                {/* Firewall Item - Treći element */}
+                <div className="flex items-center gap-6 mb-8 bg-gray-700 p-6 rounded-lg border-l-4 border-red-500">
+                    <div className="w-32 h-32 bg-gray-600 flex items-center justify-center shrink-0 overflow-hidden rounded-md">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1600" alt="Server Rack Firewall" className="w-full h-full object-cover" />
+                    </div>
+                    <div>
+                        <h2 className="text-2xl font-bold mb-2">Hardware Firewalls</h2>
+                        <p>Još jedan dodatak za testiranje! Nakon što uradiš push ovog koda, iskoristi komandu:
+                            <code> git log </code> kako bi pregledao istoriju svojih commit-ova i potvrdio da su sve prethodne promjene uspješno sačuvane.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </main>
     );
