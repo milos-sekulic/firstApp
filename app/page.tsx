@@ -65,6 +65,7 @@ export default function Home() {
           </div>
         </div>
 
+<<<<<<< HEAD
         {/* Ethernet Item 3 */}
         <div className="flex items-center gap-6 mb-8 bg-gray-700 p-6 rounded-lg">
           <div className="w-32 h-32 bg-gray-600 flex items-center justify-center shrink-0 overflow-hidden rounded-md">
@@ -77,6 +78,33 @@ export default function Home() {
         </div>
 
        
+=======
+        {/* Ethernet Item 3 - NOVI DIV */}
+        <div className="group flex flex-col md:flex-row items-center gap-6 mb-8 bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-lg hover:shadow-purple-500/20 hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
+          {/* Dekorativna linija sa strane */}
+          <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-400 to-pink-500 transform origin-top scale-y-0 group-hover:scale-y-100 transition-transform duration-300"></div>
+
+          <div className="w-32 h-32 bg-slate-700 flex items-center justify-center shrink-0 overflow-hidden rounded-lg shadow-inner">
+            <img 
+              src="https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=400&q=80" 
+              alt="BNC Connector" 
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+            />
+          </div>
+          <div>
+            <div className="flex items-center gap-3 mb-2">
+              <h2 className="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors">BNC Coaxial Connector</h2>
+              <span className="bg-purple-900/40 text-purple-300 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider border border-purple-700/50">
+                Koaksijalni
+              </span>
+            </div>
+            <p className="text-slate-400 leading-relaxed">
+              Često se koristi za prenos radio-frekvencijskih signala, video nadzor i u starijim mrežnim topologijama. Prepoznatljiv je po svom mehanizmu za zaključavanje okretanjem (bajonet), koji osigurava čvrstu vezu i sprječava slučajno isključivanje.
+            </p>
+          </div>
+        </div>
+
+>>>>>>> d5b8e2d (ADDEDdiv)
       </div>
     </main>
   );
