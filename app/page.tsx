@@ -75,6 +75,17 @@ export default function Home() {
             <p>A compact, hot-pluggable network interface module used for data communications. It easily connects network switches and enterprise routers to fiber optic or copper networking cables.</p>
           </div>
         </div>
+
+        {/* Ethernet Item 3 */}
+        <div className="flex items-center gap-6 mb-8 bg-gray-700 p-6 rounded-lg">
+          <div className="w-32 h-32 bg-gray-600 flex items-center justify-center shrink-0 overflow-hidden rounded-md">
+            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&q=80" alt="SFP Transceiver" className="w-full h-full object-cover" />
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold mb-2">SFP Transceiver</h2>
+            <p>A compact, hot-pluggable network interface module used for data communications. It easily connects network switches and enterprise routers to fiber optic or copper networking cables.</p>
+          </div>
+        </div>
       </div>
     </main>
   );
