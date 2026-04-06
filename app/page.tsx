@@ -19,12 +19,12 @@ export default function Home() {
         <div className="group flex flex-col md:flex-row items-center gap-6 mb-8 bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-lg hover:shadow-pink-500/20 hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
           {/* Dekorativna linija sa strane */}
           <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-pink-400 to-rose-500 transform origin-top scale-y-0 group-hover:scale-y-100 transition-transform duration-300"></div>
-          
+
           <div className="w-32 h-32 bg-slate-700 flex items-center justify-center shrink-0 overflow-hidden rounded-lg shadow-inner">
-            <img 
-              src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&q=80" 
-              alt="Ethernet Cable" 
-              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+            <img
+              src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&q=80"
+              alt="Ethernet Cable"
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
             />
           </div>
           <div>
@@ -46,10 +46,10 @@ export default function Home() {
           <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-fuchsia-400 to-pink-500 transform origin-top scale-y-0 group-hover:scale-y-100 transition-transform duration-300"></div>
 
           <div className="w-32 h-32 bg-slate-700 flex items-center justify-center shrink-0 overflow-hidden rounded-lg shadow-inner">
-            <img 
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDgj139qCAfm_UeLp0PYb_IFxFzwf8y8Y3Bg&s" 
-              alt="Fiber Optic Cables" 
-              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDgj139qCAfm_UeLp0PYb_IFxFzwf8y8Y3Bg&s"
+              alt="Fiber Optic Cables"
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
             />
           </div>
           <div>
@@ -65,7 +65,6 @@ export default function Home() {
           </div>
         </div>
 
-<<<<<<< HEAD
         {/* Ethernet Item 3 */}
         <div className="flex items-center gap-6 mb-8 bg-gray-700 p-6 rounded-lg">
           <div className="w-32 h-32 bg-gray-600 flex items-center justify-center shrink-0 overflow-hidden rounded-md">
@@ -77,18 +76,17 @@ export default function Home() {
           </div>
         </div>
 
-       
-=======
+
         {/* Ethernet Item 3 - NOVI DIV */}
         <div className="group flex flex-col md:flex-row items-center gap-6 mb-8 bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-lg hover:shadow-purple-500/20 hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
           {/* Dekorativna linija sa strane */}
           <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-400 to-pink-500 transform origin-top scale-y-0 group-hover:scale-y-100 transition-transform duration-300"></div>
 
           <div className="w-32 h-32 bg-slate-700 flex items-center justify-center shrink-0 overflow-hidden rounded-lg shadow-inner">
-            <img 
-              src="https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=400&q=80" 
-              alt="BNC Connector" 
-              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+            <img
+              src="https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=400&q=80"
+              alt="BNC Connector"
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
             />
           </div>
           <div>
@@ -104,7 +102,6 @@ export default function Home() {
           </div>
         </div>
 
->>>>>>> d5b8e2d (ADDEDdiv)
       </div>
     </main>
   );
