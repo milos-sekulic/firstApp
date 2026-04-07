@@ -15,26 +15,6 @@ export default function Home() {
           </p>
         </div>
 
-<<<<<<< HEAD
-        {/* Ethernet Item 1 */}
-        <div className="group flex flex-col md:flex-row items-center gap-6 mb-8 bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-lg hover:shadow-pink-500/20 hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
-          {/* Dekorativna linija sa strane */}
-          <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-pink-400 to-rose-500 transform origin-top scale-y-0 group-hover:scale-y-100 transition-transform duration-300"></div>
-
-          <div className="w-32 h-32 bg-slate-700 flex items-center justify-center shrink-0 overflow-hidden rounded-lg shadow-inner">
-            <img
-              src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&q=80"
-              alt="Ethernet Cable"
-              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-            />
-          </div>
-          <div>
-            <div className="flex items-center gap-3 mb-2">
-              <h2 className="text-2xl font-bold text-white group-hover:text-pink-400 transition-colors">RJ45 Connector</h2>
-              <span className="bg-pink-900/40 text-pink-300 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider border border-pink-700/50">
-                Bakar (Copper)
-              </span>
-=======
         {/* Ethernet Item 1 - Neon/Glassmorphism Redesign */}
         <div className="relative group w-full max-w-4xl overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-black to-slate-900 p-[2px] transition-all duration-500 hover:shadow-[0_0_40px_-10px_rgba(236,72,153,0.4)]">
 
@@ -95,7 +75,6 @@ export default function Home() {
                 <span>TYPE: CAT5E/CAT6</span>
               </div>
 
->>>>>>> 7be37ae (block-changes)
             </div>
           </div>
         </div>
