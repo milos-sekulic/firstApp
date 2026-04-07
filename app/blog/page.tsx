@@ -46,6 +46,18 @@ export default function Blog() {
                     </button>
                 </article>
 
+                {/* Blog Post 4 */}
+                <article className="mb-8 bg-gray-700 p-6 rounded-lg border-l-4 border-yellow-500">
+                    <span className="text-sm text-gray-400 mb-2 block">07.04.2026.</span>
+                    <h2 className="text-2xl font-bold mb-3">Podesavanje githuba i gita</h2>
+                    <p className="text-gray-300 mb-4">
+                        U ovom tekstu prolazimo kroz osnovne korake za podesavanje githuba i gita.
+                    </p>
+                    <button className="bg-yellow-600 hover:bg-yellow-500 text-white font-semibold py-2 px-4 rounded transition-colors duration-200">
+                        Pročitaj više
+                    </button>
+                </article>
+
             </div>
         </main>
     );
