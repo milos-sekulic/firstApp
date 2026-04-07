@@ -51,6 +51,19 @@ export default function About() {
                     </div>
                 </div>
 
+                {/* Switch Item - Potpuno novi dodati element */}
+                <div className="flex items-center gap-6 mb-8 bg-gray-700 p-6 rounded-lg border-l-4 border-green-500">
+                    <div className="w-32 h-32 bg-gray-600 flex items-center justify-center shrink-0 overflow-hidden rounded-md">
+                        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=1600" alt="Network Cables" className="w-full h-full object-cover" />
+                    </div>
+                    <div>
+                        <h2 className="text-2xl font-bold mb-2">tastatura</h2>
+                        <p>Ovo je novi dio koda koji je dodat. Možeš nastaviti da testiraš Git komande i pratiš promjene:
+                            <code> git status </code> i <code> git diff </code> će ti pokazati ovaj novi blok prije nego što uradiš commit.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </main>
     );
