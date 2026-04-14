@@ -7,7 +7,7 @@ export default function Contact() {
 
       <div className="max-w-4xl">
         <p className="mb-8 text-lg">
-          Need to get in touch? While you&apos;re here, learn a little bit about network switches!
+          Need to get in touch? While you are here, learn a little bit about network switches!
         </p>
 
         {/* Switch Item */}
