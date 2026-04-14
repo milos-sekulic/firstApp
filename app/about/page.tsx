@@ -19,7 +19,7 @@ export default function About() {
                         <h2 className="text-2xl font-bold mb-2">Core Routers</h2>
                         <p>Test2 da vidim da li se update radi uzivo nakon komandi:
                             git add .
-                            git commit -m "novi tekst"
+                            git commit -m &quot;novi tekst&quot;
                             git push
                         </p>
                     </div>
