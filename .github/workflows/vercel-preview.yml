@@ -1,0 +1,38 @@
+name: Vercel Preview Deployment
+
+on:
+    pull_request:
+        branches: ["main", "master"]
+        types: [opened, synchronize, reopened]
+
+jobs:
+    deploy-preview:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Deploy to Vercel
+              uses: amondnet/vercel-action@v25
+              with:
+                  vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
+                  vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} # Required
+                  vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} # Required
+                  github-token: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
+                  vercel-args: "--yes" # Automatically answer yes to prompts
+
+
+# ==========================================
+# HOW TO SET THIS UP:
+# 1. Create a project in Vercel and link it to this repository (optional, but gets you the project ID).
+# 2. In Vercel, go to Settings -> Tokens and create a new token.
+# 3. Add the token to your GitHub repository secrets as VERCEL_TOKEN.
+# 4. Find your Vercel Org ID (Settings -> General -> Team ID) and add it as VERCEL_ORG_ID.
+# 5. Find your Vercel Project ID (Settings -> General -> Project ID) and add it as VERCEL_PROJECT_ID.
+#
+# Once configured, this action will automatically deploy a preview environment
+# for every pull request, allowing you to see how your changes look live!
+# ==========================================
