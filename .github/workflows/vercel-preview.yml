@@ -1,6 +1,7 @@
 name: Vercel Preview Deployment
 
 on:
+    workflow_dispatch:
     pull_request:
         branches: ["main", "master"]
         types: [opened, synchronize, reopened]
