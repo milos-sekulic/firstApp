@@ -19,6 +19,7 @@ jobs:
         run: npm ci
 
       - name: Deploy to Vercel
+        id: vercel_deploy
         uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
@@ -26,6 +27,11 @@ jobs:
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} # Required
           github-token: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
 
+      - name: Highlight Vercel Link in Actions Summary
+        run: |
+          echo "### 🚀 Deployment Successful!" >> $GITHUB_STEP_SUMMARY
+          echo "Your Vercel Preview is live and ready to view:" >> $GITHUB_STEP_SUMMARY
+          echo "**Preview URL:** [${{ steps.vercel_deploy.outputs.preview-url }}](${{ steps.vercel_deploy.outputs.preview-url }})" >> $GITHUB_STEP_SUMMARY
 
 # ==========================================
 # HOW TO SET THIS UP:
