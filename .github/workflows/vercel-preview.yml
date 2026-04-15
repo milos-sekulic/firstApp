@@ -1,29 +1,29 @@
 name: Vercel Preview Deployment
 
 on:
-    workflow_dispatch:
-    pull_request:
-        branches: ["main", "master"]
-        types: [opened, synchronize, reopened]
+  workflow_dispatch:
+  pull_request:
+    branches: ["main", "master"]
+    types: [opened, synchronize, reopened]
 
 jobs:
-    deploy-preview:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout repository
-              uses: actions/checkout@v4
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-            - name: Install dependencies
-              run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-            - name: Deploy to Vercel
-              uses: amondnet/vercel-action@v25
-              with:
-                  vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
-                  vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} # Required
-                  vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} # Required
-                  github-token: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
-                  # vercel-args: "--yes"  <-- REMOVED THIS LINE
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} # Required
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} # Required
+          github-token: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
+
 
 # ==========================================
 # HOW TO SET THIS UP:
