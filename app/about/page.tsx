@@ -7,7 +7,7 @@ export default function About() {
 
             <div className="max-w-4xl">
                 <p className="mb-8 text-lg">
-                    This is the About page. Here is a brief overview of the core hardware that directs traffic across modern computer networks.
+                    sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssThis is the About page. Here is a brief overview of the core hardware that directs traffic across modern computer networks.
                 </p>
 
                 {/* Router Item - Zadržan original */}
@@ -45,7 +45,7 @@ export default function About() {
                     </div>
                     <div>
                         <h2 className="text-2xl font-bold mb-2">Hardware Firewalls</h2>
-                        <p>Još jedan dodatak za testiranje! Nakon što uradiš push ovog koda, iskoristi komandu:
+                        <p>Jos jedan dodatak za testiranje.. Nakon sto uradis push ovog koda, iskoristi komandu:
                             <code> git log </code> kako bi pregledao istoriju svojih commit-ova i potvrdio da su sve prethodne promjene uspješno sačuvane.
                         </p>
                     </div>
